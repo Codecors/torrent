@@ -1,7 +1,7 @@
 require_once 'Torrent.php';
 
 // get torrent infos
-$torrent = new Torrent( 'test.torrent' );
+$torrent = new Torrent( '8743eb81f0bdca7dfc363b352468c51866d114eb_skytorrents.in.' );
 echo '<br>private: ', $torrent->is_private() ? 'yes' : 'no', 
 	 '<br>annonce: ', $torrent->announce(), 
 	 '<br>name: ', $torrent->name(), 
